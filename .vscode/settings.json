@@ -3,7 +3,7 @@
     "python.linting.enabled": true,
     "python.linting.flake8Args": [
         "--max-line-length=120",
-        "--ignore=W293",
+        "--ignore=W293,W292",
         "--exclude=docker,migrations,settings.py,__pycache__,manage.py"
     ],
 }
